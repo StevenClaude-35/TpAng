@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CvComponent } from './cvTech/cv/cv.component';
+import { ListeCvComponent } from './cvTech/liste-cv/liste-cv.component';
+import { ItemCvComponent } from './cvTech/item-cv/item-cv.component';
+import { DetailCvComponent } from './cvTech/detail-cv/detail-cv.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CvComponent,
+    ListeCvComponent,
+    ItemCvComponent,
+    DetailCvComponent
   ],
   imports: [
     BrowserModule,
